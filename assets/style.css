@@ -134,7 +134,42 @@ h6 {
   margin-bottom: 10em;
 }
 
+.devices {
+  width: 647px;
+  height: 404px;
+}
+
 /* Footer  */
-footer {
-  background-color: var(--greyishBlue);
+.footer {
+  background-color: #F5F6F8;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  position: relative;
+  bottom: 35px;
+}
+
+.footer-logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 90px;
+}
+
+.socials {
+  margin: auto;
+  padding: 0;
+  text-align: right;
+  float: right;
+  position: relative;
+  bottom: 100px;
+}
+
+.socials-flex {
+  display: flex;
+  column-gap: 15px;
 }
