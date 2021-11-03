@@ -18,6 +18,13 @@ body {
   font-size: 18px;
 }
 
+/* Typography  */
+p {
+  color: #9FABB2;
+}
+
+
+
 /* Header  */
 .header {
   background-image: url(/images/bg-header-desktop.png);
@@ -63,4 +70,22 @@ body {
 /* Keep Track  */
 .keep-track {
   margin-bottom: 10em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.computer {
+  width: 500px;
+  height: 400px;
+}
+
+.text-flex {
+  margin-top: 100px;
+}
+
+.computer-text {
+  display: block;
 }
