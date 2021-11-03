@@ -20,9 +20,17 @@ body {
 
 /* Typography  */
 p {
-  color: #9FABB2;
+  color: var(--greyishBlue);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--darkGreyishBlue);
+}
 
 
 
@@ -111,3 +119,22 @@ p {
 }
 
 /* Patners */
+.patners {
+  margin-bottom: 10em;
+}
+
+.patners-img {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* Clipboard  */
+.clipboard {
+  margin-bottom: 10em;
+}
+
+/* Footer  */
+footer {
+  background-color: var(--greyishBlue);
+}
