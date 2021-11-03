@@ -89,3 +89,8 @@ p {
 .computer-text {
   display: block;
 }
+
+/* Access  */
+.access-clipboard {
+  margin-bottom: 10em;
+}
