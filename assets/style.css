@@ -25,6 +25,7 @@ p {
 
 
 
+
 /* Header  */
 .header {
   background-image: url(/images/bg-header-desktop.png);
@@ -94,3 +95,19 @@ p {
 .access-clipboard {
   margin-bottom: 10em;
 }
+
+/* Supercharge  */
+.supercharge {
+  margin-bottom: 10em;
+}
+
+.list {
+  list-style: none;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-evenly
+}
+
+/* Patners */
