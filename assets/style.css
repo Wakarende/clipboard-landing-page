@@ -44,7 +44,7 @@ html {
 
 /* Header  */
 .header {
-  background-image: url(/images/bg-header-desktop.png);
+  background-image: url(images/bg-header-desktop.png);
   margin: 0;
   padding: 0;
   background-size: cover;
@@ -90,7 +90,7 @@ html {
 
 @media screen and (max-width:640px) {
   .header {
-    background-image: url(/images/bg-header-mobile.png);
+    background-image: url(images/bg-header-mobile.png);
     background-size: cover;
     margin: 0;
     padding: 0;
