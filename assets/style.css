@@ -169,6 +169,14 @@ html {
   justify-content: space-evenly
 }
 
+/* SuperCharge Media Queries  */
+@media screen and (max-width:375px) {
+  .lists {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* Patners */
 .patners {
   margin-bottom: 10em;
